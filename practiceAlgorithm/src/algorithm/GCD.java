@@ -4,6 +4,8 @@ public class GCD {
 
 	public static void main(String[] args) {
 		
+		// 문제) 최대공약수를 구하시오.
+		
 		int num1, num2;
 		
 		num1 = 30;
