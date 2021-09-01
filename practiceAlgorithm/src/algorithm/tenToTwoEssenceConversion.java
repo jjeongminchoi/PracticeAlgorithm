@@ -11,7 +11,7 @@ public class tenToTwoEssenceConversion {
 		int inputNum = 19;
 		int m, n; // m : 몫, n : 나머지
 		int seq = 0; // 인덱스
-		int[] arr = new int[5];
+		int[] arr = new int[5]; // 동적으로 바꿔야하나.
 		
 		while(inputNum > 1) {
 			m = inputNum / 2;
