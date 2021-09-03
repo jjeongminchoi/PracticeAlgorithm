@@ -1,6 +1,6 @@
 package algorithm;
 
-public class fibonacciSequence {
+public class FibonacciSequence {
 
 	public static void main(String[] args) {
 		

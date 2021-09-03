@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class mode {
+public class Mode {
 
 	public static void main(String[] args) {
 		

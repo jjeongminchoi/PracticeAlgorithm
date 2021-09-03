@@ -1,6 +1,6 @@
 package algorithm;
 
-public class primeNumberSearch {
+public class PrimeNumberSearch {
 
 	public static void main(String[] args) {
 		
