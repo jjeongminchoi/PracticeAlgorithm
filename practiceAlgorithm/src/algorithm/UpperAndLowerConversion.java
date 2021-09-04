@@ -1,7 +1,5 @@
 package algorithm;
 
-import java.util.Scanner;
-
 public class UpperAndLowerConversion {
 
 	public static void main(String[] args) {
