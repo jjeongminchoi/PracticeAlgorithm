@@ -1,6 +1,6 @@
 package algorithm;
 
-public class Factorial {
+public class _08_Factorial {
 
 	public static void main(String[] args) {
 		

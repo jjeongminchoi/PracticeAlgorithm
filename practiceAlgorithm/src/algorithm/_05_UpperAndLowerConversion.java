@@ -1,6 +1,6 @@
 package algorithm;
 
-public class UpperAndLowerConversion {
+public class _05_UpperAndLowerConversion {
 
 	public static void main(String[] args) {
 		

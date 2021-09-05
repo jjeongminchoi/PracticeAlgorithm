@@ -1,6 +1,6 @@
 package algorithm;
 
-public class TenToTwoEssenceConversion {
+public class _04_TenToTwoEssenceConversion {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package algorithm;
 
-public class GCD {
+public class _06_GCD {
 
 	public static void main(String[] args) {
 		
