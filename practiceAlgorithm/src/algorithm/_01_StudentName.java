@@ -1,6 +1,7 @@
 package algorithm;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 //문제) 학생정보들을 저장하고, 학생이름으로 검색했을 때 학번을 출력하는 프로그램 작성.
 
@@ -48,12 +49,48 @@ public class _01_StudentName {
 		Student st2 = new Student("저팔계", "1772");
 		Student st3 = new Student("사오정", "1813");
 		
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<Student> list = new ArrayList<Student>();
 		
-		list.add("gg");
-		list.add("gi");
+		list.add(st1);
+		list.add(st2);
+		list.add(st3);
 		
-		System.out.println(list);
+		for(Student stu : list) {
+			System.out.println(stu.getName());
+			System.out.println(stu.getNo());
+		}
+		
+		Scanner scan = new Scanner(System.in);
+		
+		while(true) {
+			
+			System.out.println("계속 검색을 하고 싶으시면 y, 종료하고 싶으면 n");
+
+			String input = scan.nextLine();
+			
+			if(input.equals("y")) {
+				System.out.println("검색을 시작합니다.");
+				String name = scan.nextLine();
+				boolean flag = false;
+				
+				for(Student stu : list) {
+					if(stu.getName().equals(name)) {
+						System.out.println("해당하는 학생의 학번은 : " + stu.getNo());
+						flag = true;
+					}
+				}
+				
+				if(!flag) {
+					System.out.println("해당하는 학생 이름이 없습니다.");
+				}
+				
+				
+			} else if(input.equals("n")) {
+				break;
+			}
+		}
+		
+		System.out.println("프로그램이 종료되었습니다.");
 		
 	}
 
