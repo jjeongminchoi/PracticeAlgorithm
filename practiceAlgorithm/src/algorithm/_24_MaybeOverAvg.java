@@ -12,12 +12,12 @@ public class _24_MaybeOverAvg {
 //		정답 : 57.143%
 		
 		Scanner sc = new Scanner(System.in);
-		int score = 0;
-		int cnt = 0;
+		double score = 0;
+		double cnt = 0;
 		
 		System.out.println("학생 수를 입력하세요(숫자만 입력)");
 		int studentNum = sc.nextInt();
-		int arr[] = new int[studentNum];
+		double arr[] = new double[studentNum];
 		
 		System.out.println("학생들의 점수를 입력하세요.(학생 한명씩)");
 		for(int i = 0 ; i < studentNum ; i++) {
@@ -28,22 +28,20 @@ public class _24_MaybeOverAvg {
 			score += arr[i];
 		}
 		
-		int avg = score / studentNum;
+		double avg = score / studentNum;
 		
 		for(int i = 0 ; i < studentNum ; i++) {
 			if(arr[i] > avg) {
 				cnt++;
 			}
 		}
-		System.out.println(arr[2]);
-		System.out.println(cnt);
-		System.out.println(studentNum);
-		
-		System.out.println("평균 점수보다 높은 학생 비율 : " + ((cnt / studentNum) * 100));
+
+		System.out.println("평균보다 높은 사람 수 : " + cnt);
 		System.out.println("학생 수 : " + studentNum + "명");
 		System.out.println("총 점수 : " + score + "점");
 		System.out.println("평균 : " + avg + "점");
 		
+		System.out.println("평균 점수보다 높은 학생 비율 : " + (cnt / studentNum * 100));
 	}
 
 }
