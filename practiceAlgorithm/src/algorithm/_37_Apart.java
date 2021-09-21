@@ -60,6 +60,7 @@ public class _37_Apart {
 		}
 		
 		System.out.println(apartCnt);
+
 		for(int i : houseHold) {
 			System.out.print(i + " ");
 		}
