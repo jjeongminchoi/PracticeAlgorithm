@@ -28,6 +28,7 @@ public class _36_BinaryNumberConversionRecursive {
 		}
 		
 		conversion(N / 2); // c(8) , c(4), c(2), c(1), c(0)
+
 		System.out.print(N % 2);
 		
 	}
