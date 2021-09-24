@@ -17,7 +17,7 @@ public class _40_MakeOneRecursive {
 //		출력 : 1
 //			 3
 	
-	static int min = 999999;
+	static int min = 99999999;
 	
 	public static void doFunc(int x, int way, int cnt) {
 		
