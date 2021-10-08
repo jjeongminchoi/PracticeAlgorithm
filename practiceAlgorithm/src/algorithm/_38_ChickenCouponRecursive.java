@@ -12,7 +12,7 @@ public class _38_ChickenCouponRecursive {
 //		
 //		입력 : n k
 //		출력 : 정답
-//		
+
 //		예)
 //		입력 :   4 3
 //			  10 3
