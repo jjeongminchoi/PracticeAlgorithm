@@ -13,9 +13,9 @@ public class _40_MakeOneRecursive {
 //		연산을 사용하는 횟수의 최솟값을 출력하시오.
 //		
 //		입력 : 2
-//			 10
+//		      10
 //		출력 : 1
-//			 3
+//		      3
 	
 	static int min = 99999999;
 	

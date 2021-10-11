@@ -41,6 +41,7 @@ public class _41_MakeOneDP {
 		// 즉, 입력된 값의 이전 인덱스 값들을 가지고 횟수를 구하면 된다.
 		
 		System.out.println("숫자를 입력하세요.");
+
 		int input = sc.nextInt();
 		
 		for(int i = 4 ; i <= 100000 ; i++) {

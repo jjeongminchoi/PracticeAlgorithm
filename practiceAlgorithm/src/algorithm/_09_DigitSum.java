@@ -13,6 +13,7 @@ public class _09_DigitSum {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력하세요.");
+
 		int inputNum = sc.nextInt();
 		int result = 0;
 		

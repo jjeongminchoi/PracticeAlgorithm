@@ -21,6 +21,7 @@ public class _35_ExtractNumber {
 		}
 		
 		extract(n / 10);
+
 		System.out.println(n % 10);
 		
 	}
