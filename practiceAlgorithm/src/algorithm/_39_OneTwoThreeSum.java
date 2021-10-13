@@ -25,6 +25,7 @@ public class _39_OneTwoThreeSum {
 //			44
 //			274
 	
+
 	static int cache[] = new int[1000];
 	
 	public static int doFunc(int n) {
