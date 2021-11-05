@@ -16,6 +16,7 @@ public class _19_Power {
 		for(int i = 0 ; i < m ; i++) {
 			res *= n;
 		}
+
 		System.out.println(res);
 		
 	}
