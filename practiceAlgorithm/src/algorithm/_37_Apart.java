@@ -11,7 +11,7 @@ public class _37_Apart {
 //		1 1 0 0 0
 //		1 1 0 1 1
 //		출력 : 3 (단지 수)
-//		     3 5 2 (단지의 세대 수)
+//		       3 5 2 (단지의 세대 수)
 	
 	static final int SIZE = 5;
 	static final int APART = 1;
